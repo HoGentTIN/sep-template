@@ -15,3 +15,7 @@ Lees [TODO.md](TODO.md) door bij aanvang van je project!
 ## Afspraken ivm communicatie, gebruik tools
 
 (beschrijf hier of in een apart document al wat jullie onderling of met jullie begeleiders afgesproken hebben ivm samenwerken: werkwijze gebruik versiebeheer, kanbanbord en tijdregistratie, voorbereiden weekrapporten, enz.)
+
+
+## Link naar weekrapporten
+[week2](/weekrapport/week_02.md)
