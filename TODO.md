@@ -1,6 +1,6 @@
 # TODO
 
-Dit document bevat instructies die je bij aanvang van het project dient uit te voeren, wekelijks te herhalen of bij start elke nieuwe opdracht.
+Dit document bevat instructies die je bij aanvang van het project dient uit te voeren, wekelijks dient te herhalen of bij start elke nieuwe opdracht moet uitvoeren.
 
 ## Aanvang project
 
