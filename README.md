@@ -1,5 +1,7 @@
 # System Engineering Project
 
+Lees TODO.md door bij aanvang van je project!
+
 ## Groepsleden
 
 | Naam     | GitHub gebruikersnaam                   |
