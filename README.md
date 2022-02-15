@@ -1,6 +1,6 @@
 # System Engineering Project
 
-Lees TODO.md door bij aanvang van je project!
+Lees [TODO.md](TODO.md) door bij aanvang van je project!
 
 ## Groepsleden
 
