@@ -5,7 +5,6 @@ Dit document bevat instructies die je bij aanvang van het project dient uit te v
 ## Aanvang project
 
 - Zorg er voor dat alle teamleden toegevoegd zijn aan je github repo
-- Voeg ook al jouw begeleiders toe aan je github repo
 - Pas de README.MD aan zodat alle studentennamen en hun repos zijn toegevoegd
 - Lees de instructies voor [weekrapporten](/weekrapport/README.md)
 
