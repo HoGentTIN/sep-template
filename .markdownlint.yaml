@@ -1,8 +1,5 @@
 ---
-
-# Expect indent of 4 spaces (Github default)
-MD007:
-  indent: 4
-
-# Ignore long lines
-MD013: false
+line-length: false
+no-alt-text: false
+no-bare-urls: false
+no-duplicate-heading: false
