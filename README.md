@@ -41,7 +41,7 @@ Op Chamilo kan je ook de slides van de kick-off terugvinden en de opname ervan h
 
 Wekelijks/tweewekelijks:
 
-- Maak een [weekrapport](./analyse/README.md) aan **voor** aanvang van het contactmoment.
+- Maak een [opvolgingsrapport](./analyse/README.md) aan **voor** aanvang van het contactmoment.
 
 Bij aanvang nieuwe deelopdracht:
 
