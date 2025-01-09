@@ -1,8 +1,41 @@
-# Studiewijzer - System Engineering Project
+# System Engineering Project - studiewijzer
 
-## Inleiding
+Dit document bevat de richtlijnen voor het opleidingsonderdeel **System Engineering Project**, zowel voor de reguliere studenten als studenten via het traject van afstandsleren. De organisatie verloopt grotendeels gelijkaardig, en als er verschillen zijn, worden die duidelijk vermeld in deze studiewijzer.
 
-Dit document bevat de richtlijnen voor het opleidingsonderdeel System Engineering Project, zowel voor de reguliere studenten als studenten via het traject van afstandsleren. De organisatie verloopt grotendeels gelijkaardig, en als er verschillen zijn, worden die duidelijk vermeld in deze studiewijzer.
+Misschien heb je na het doornemen van deze studiewijzer toch nog vragen. Een deel daarvan zal sowieso tijdens de loop van het project duidelijk worden. Verder kan je altijd vragen stellen aan de begeleiders, of bij de vaktitularis, [Bert Van Vreckem](mailto:bert.vanvreckem@hogent.be).
+
+Inhoud:
+
+- [System Engineering Project - studiewijzer](#system-engineering-project---studiewijzer)
+  - [Doel en plaats van de cursus in het curriculum](#doel-en-plaats-van-de-cursus-in-het-curriculum)
+  - [Leerinhoud](#leerinhoud)
+  - [Leerdoelen en competenties](#leerdoelen-en-competenties)
+  - [Leermateriaal](#leermateriaal)
+  - [Werkvormen](#werkvormen)
+    - [Groepvorming](#groepvorming)
+    - [Aanwezigheid](#aanwezigheid)
+  - [Werk- en leeraanwijzingen](#werk--en-leeraanwijzingen)
+    - [Communicatie en bedrijfscultuur](#communicatie-en-bedrijfscultuur)
+  - [Studiebegeleiding](#studiebegeleiding)
+    - [Contactinfo begeleiders](#contactinfo-begeleiders)
+    - [Begeleiding reguliere studenten](#begeleiding-reguliere-studenten)
+    - [Begeleiding afstandsleren](#begeleiding-afstandsleren)
+    - [Intervisiegesprekken](#intervisiegesprekken)
+  - [Planning](#planning)
+    - [Week 1](#week-1)
+    - [Vóór contactmoment week 2](#vóór-contactmoment-week-2)
+    - [Week 2](#week-2)
+    - [Week 3 t/m 12: tussentijdse sprints](#week-3-tm-12-tussentijdse-sprints)
+    - [Week 12: finale oplevering](#week-12-finale-oplevering)
+  - [Evaluatie](#evaluatie)
+    - [Dossier](#dossier)
+    - [Tijdsbesteding](#tijdsbesteding)
+    - [Eerste examenkans](#eerste-examenkans)
+    - [Tweede examenkans](#tweede-examenkans)
+    - [Inhaalkansen](#inhaalkansen)
+
+
+## Doel en plaats van de cursus in het curriculum
 
 Dit project heeft als belangrijkste doelstelling het in team opzetten van **complexe en geïntegreerde ICT-infrastructuur** die beschikbaar is voor eindgebruikers. We leggen daarbij bijzondere nadruk op:
 
@@ -13,32 +46,11 @@ Dit project heeft als belangrijkste doelstelling het in team opzetten van **comp
 - Als individu functioneren in een groter **team**.
 - Omgaan met werken op afstand en een goede samenwerking en communicatie bewaren.
 
-Je maakt deel uit van een projectgroep van maximaal 5 leden. Je bent minstens een halve dag per week, tenzij anders gecommuniceerd, met jouw groep aanwezig op de campus om aan het project te werken. Dit geldt niet voor de studenten via afstandsleren. Elke projectgroep wordt toegewezen aan een begeleidende lector die jullie technisch zal opvolgen. Ook het proces wordt opgevolgd door een lector analyse.
-Je moet te allen tijde kunnen aantonen dat je een niet-triviale, zinvolle bijdrage geleverd hebt aan het project. Dat gebeurt niet alleen aan de hand van de code die je geschreven hebt, maar ook je technische documentatie en testplannen. Tenslotte moet jouw deel van het werk ook geïntegreerd zijn met de rest van het uit te werken project. Jouw bijdrage is dus nodig voor het slagen van het project als geheel!
+## Leerinhoud
 
-Bij de eindbeoordeling houden we niet alleen rekening met het eindproduct, maar ook met het gevolgde proces, de individuele inbreng, de houding tijdens het verloop van de projectwerking en de vorderingen gemaakt door de individuele student.
-
-Misschien heb je na het lezen van deze brochure toch nog vragen. Een deel daarvan zal sowieso tijdens de loop van het project duidelijk worden. Verder kan je altijd vragen stellen aan je begeleiders, of bij de titularis van het project, [Sebastiaan Labijn](mailto:sebastiaan.labijn@hogent.be).
-
-Veel succes!
-
-De begeleidende lectoren System Engineering Project:
-
-- Technische begeleiding:
-  - [Thomas Clauwaert](mailto:thomas.clauwaert@hogent.be)
-  - [Jeroen Courtens](mailto:jeroen.courtens@hogent.be)
-  - [Martijn Saelens](mailto:martijn.saelens@hogent.be)
-  - [Andy Van Maele](mailto:andy.vanmaele@hogent.be)
-- Begeleiding Analyse:
-  - [Sebastiaan Labijn](mailto:sebastiaan.labijn@hogent.be)
-
-## Doel en plaats van het opleidingsonderdeel
-
-Dit opleidingsonderdeel behoort tot de leerlijn systeem- en netwerkbeheer binnen de bacheloropleiding toegepaste informatica. In het systeembeheerproject toon je aan dat je bekwaam bent om aan de slag te gaan als een (junior) systeem- of netwerkbeheerder, system engineer, of gelijkaardige profielen.
-
-Binnen het project zal je de competenties die je in andere opleidingsonderdelen verworven hebt verder uitdiepen en uitbreiden. Daarnaast wordt er ook bijzondere aandacht geschonken aan het proces, bv. functioneren in een team, rapporteren naar leidinggevenden en planning.
 
 ## Leerdoelen en competenties
+
 
 Zie ook de [studiefiche](https://www.hogent.be/studiefiches/) of de [Chamilo-cursus](https://chamilo.hogent.be).
 
@@ -67,22 +79,37 @@ Procesmatige competenties:
 - Kan zelfstandig de kwaliteit van het eigen werk opvolgen en past spontaan het werk aan de eisen van de klant.
 - Kan stimulerend samenwerken met anderen en actief bijdragen aan teamwork. Het team is zelfsturend onder begeleiding van de onderwijsgevende.
 
-## Reglementen van toepassing
-
-Uiteraard is het gehele [Onderwijs- en Examenreglement (OER) en Departementaal Reglement (DOER) van departement IT en Digitale innovatie](https://www.hogent.be/student/een-vlotte-start/onderwijs-en-examenregeling/) ook van toepassing op dit opleidingsonderdeel, maar we willen graag expliciet de aandacht vestigen op de hieronder opgesomde reglementen. **Lees deze goed na!** Wij veronderstellen dat jullie de regels kennen en ook de consequenties van het niet naleven ervan.
-
-- Onderwijs- en Examenreglement (OER):
-  - Art. 33, _Afwezigheid bij evaluatie_;
-  - Art. 36, _Vermelding 'afwezig'_;
-- Departementaal Reglement (DOER) van departement IT en Digitale innovatie:
-  - Art. 4, _Deelname aan onderwijs- en evaluatieactiviteiten_
-  - Art. 6, _Gevolgen bij afwezigheid bij evaluatie_
-
 ## Leermateriaal
 
-Voor dit opleidingsonderdeel is er -behalve deze studiewijzer- geen apart leermateriaal voorzien. Gebruik waar nodig de leermaterialen van de gerelateerde opleidingsonderdelen: Computer Networks, Operating Systems, Linux, Windows Server, Functional Analysis, ... .
+Voor dit opleidingsonderdeel is er -behalve de inhoud van deze repository en zaken die op Chamilo gepubliceerd zijn- geen apart leermateriaal voorzien. 
 
-Verder is het de bedoeling dat je de informatie die nodig is om de opdracht uit te voeren zelfstandig gaat opzoeken via de bronnen die in de beroepspraktijk gebruikt worden: vakliteratuur, het Internet, ... .
+Gebruik waar nodig de leermaterialen van de gerelateerde opleidingsonderdelen: Computer Networks, Operating Systems, Linux, Windows Server, Functional Analysis, ...
+
+Verder is het de bedoeling dat je de informatie die nodig is om de opdracht uit te voeren zelfstandig gaat opzoeken via de bronnen die in de beroepspraktijk gebruikt worden: vakliteratuur, het Internet, man-pages, ...
+
+## Werkvormen
+
+System Engineering Project is een projectvak waarin je in team samenwerkt aan een complexe opdracht.
+
+### Groepvorming
+
+Een projectgroep bestaat in principe uit 5 studenten (hiervan kan door de lectoren afgeweken worden indien nodig). Na de kick-off kan je je via Chamilo inschrijven in één van de voorziene groepen. Studenten die tegen 15:30 nog niet toegewezen zijn aan een groep, worden door de begeleiders ingedeeld. We streven er daarbij naar om elke groep "op te vullen". Kleinere groepen kunnen enkel als er nog onvoldoende studenten ingeschreven zijn om aan te sluiten.
+
+Studenten die bij aanvang van het semester nog niet ingeschreven zijn en willen aansluiten bij een specifieke groep, kunnen dat laten weten aan de titularis van het project, [Bert Van Vreckem](mailto:bert.vanvreckem@hogent.be). Vóór het contactmoment van week 2 kan je ook nog verzoeken voor teamwissels doorsturen. Stuur een mail met de betrokken medestudenten in cc en vermeld zeker ook de naam van de groep(en). Als er aanpassingen nodig zijn aan de toegang tot de Github-repositories, hebben we ook jullie Github-gebruikersnamen nodig.
+
+Als je team niet "volledig" is en dus uit minder dan 5 leden bestaat, wordt de scope van de opgave in overleg met de begeleiders aangepast.
+
+### Aanwezigheid
+
+De beoordeling van het opleidingsonderdeel gebeurt op basis van "permanente evaluatie". Dit betekent dus dat je tijdens het semester voortdurend geëvalueerd zal worden op basis van observatie, enerzijds tijdens de contactmomenten (ook als die online verlopen), maar anderzijds ook via de tastbare bijdragen die je levert aan het project (GitHub commits, documentatie, ...).
+
+De wekelijkse intervisiegesprekken gaan steeds op campus door voor de reguliere studenten. Voor studenten afstandsleren gaan deze online via Teams door. Er zijn echter enkele momenten tijdens het semester voorzien voor een contactmoment op de campus. Tijdens deze on-campus contactmomenten krijgen jullie de kans om met fysieke netwerkapparatuur te werken om de opgegeven labotaken uit te voeren.
+
+**Aanwezigheid** tijdens de contactmomenten is voor iedereen verplicht en is onderdeel van de permanente evaluatie. Als je niet aanwezig kan zijn op een afspraak, moet je dat ook altijd wettigen (OER, art. 33), ook al vinden de opvolgingsgesprekken niet plaats op de campus. Als je een bepaalde afspraak niet kan nakomen, verwittig dan de begeleidende lector én je groepsgenoten. De afwezigheid moet officieel gemeld worden (ten laatste op de dag van de afspraak zelf) via iBamaFlex. Binnen de 48u na de melding moet de correcte wettiging opgeladen worden. Ben je **meer dan twee keer ongewettigd afwezig** dan zal je als 'afwezig' beoordeeld worden voor je proces en dus het OLOD. Deze afwezigheid neem je mee naar de volgende examenperiode. Studenten **TIAO** mogen **niet meer dan één keer** ongewettigd afwezig zijn.
+
+We verwachten dat jullie ook buiten de contacturen verder werken aan jullie opdrachten. Hou een gedetailleerd weekrapport bij, zoals we dat ook in System Engineering Lab gevraagd hebben. Op het einde van het semester zouden je gerapporteerde uren (incl. de duurtijd van de kick-off en alle contactmomenten) de totale studietijd voor het vak moeten benaderen, nl. 200 uren. Als je uren rapporteert, dan is er ook een tastbare neerslag van het geleverde werk. Dat kan code zijn, documentatie, testplannen of -rapporten, ... . Ook van opzoekingswerk om informatie te verzamelen over een opdracht die je moet uitvoeren maak je een verslag (met bronvermeldingen!) zodat jij én je teamleden gebruik kunnen maken van de kennis die je opgedaan hebt.
+
+Ongewettigde afwezigheid op de contactmomenten en/of een onvoldoende of onbewezen bijdrage aan het project kan als gevolg hebben dat je als examencijfer de vermelding "Afwezig" krijgt.
 
 ## Werk- en leeraanwijzingen
 
@@ -122,54 +149,62 @@ Onder "bedrijfscultuur" verstaan we de manier waarop mensen binnen een organisat
 - Personen worden niet met de vinger gewezen als er iets fout gaat. Fouten of problemen zien we als een opportuniteit om ervaring op te doen en van elkaar te leren. We steken geen energie in het afschuiven van schuld of verantwoordelijkheid, maar zoeken naar manieren om dit in de toekomst te vermijden.
 - Geef elkaar ook de ruimte om een bijdrage te leveren aan het geheel. Teamleden die technisch sterker staan mogen de anderen gerust helpen, maar moeten het niet overnemen. Wees een mentor voor je teamgenoten, geen pletwals.
 
-## Studiebegeleiding en planning
+
+## Studiebegeleiding
 
 Tijdens het semester worden jullie begeleid door de lectoren van de andere opleidingsonderdelen binnen het keuzepakket (Computer Networks, Linux en Windows Server) en leerlijn Grow. Zij nemen de rol aan van **opdrachtgevers** en geven inhoudelijke, technische begeleiding en coachen jullie eveneens in teamwerk en projectmanagement.
 
-Wekelijks is er een intervisiegesprek waar de teams hun vooruitgang bespreken, zowel op vlak van het product als het proces. Het team neemt het initiatief, bepaalt de agenda en is verantwoordelijk voor de notulen. Alle teamleden stellen hun individuele bijdrage van de afgelopen periode voor, welke resultaten geboekt werden, welke problemen ze tegenkwamen, ... . Het team stelt ook doelen voor de komende sprint en verdeelt de taken evenredig.
+### Contactinfo begeleiders
+
+De begeleidende lectoren System Engineering Project:
+
+- Technische begeleiding:
+  - [Bert Van Vreckem](mailto:bert.vanvreckem@hogent.be): vaktitularis, begeleider Aalst
+  - [Jeroen Courtens](mailto:jeroen.courtens@hogent.be)
+  - [Alexander Veldeman](mailto:alexander.veldeman@hogent.be)
+  - [Andy Van Maele](mailto:andy.vanmaele@hogent.be): begeleider afstandsleren
+- Begeleiding Analyse:
+  - [Chloé De Leenheer](mailto:chloe.deleenheer@hogent.be)
+
+### Begeleiding reguliere studenten
+
+Je maakt deel uit van een projectgroep van maximaal 5 leden.
+
+Je bent *minstens* een halve dag per week met jouw groep aanwezig op de campus om aan het project te werken en om deel te nemen aan de intervisiegesprekken (zie hieronder). Je wordt ook buiten deze contactmomenten verondersteld om aan het project te werken!
+
+### Begeleiding afstandsleren
+
+Studenten afstandsleren vormen aparte teams (dus niet gemengd met reguliere studenten).
+
+De begeleider spreekt met jullie af om op regelmatige basis online Teams-meetings in te plannen.
+
+### Intervisiegesprekken
+
+Wekelijks is er een intervisiegesprek waar de teams hun vooruitgang bespreken, zowel op vlak van het product als het proces. Je kan een afspraak maken bij een van de begeleiders, naargelang hun expertise. Jouw team wordt dus niet elke week door dezelfde begeleider opgevolgd!
+
+**Het team neemt het initiatief**, spreekt een van de begeleiders aan, bepaalt de agenda en is verantwoordelijk voor de notulen. Alle teamleden stellen hun individuele bijdrage van de afgelopen periode voor (aan de hand van het JIRA kanban-bord), welke resultaten geboekt werden, welke problemen ze tegenkwamen, ... Het team stelt ook doelen voor de komende sprint en verdeelt de taken evenredig.
 
 De begeleiders adviseren en kunnen door de studenten geconsulteerd worden bij problemen. Dit is een verschil met het vorige project, waar de begeleiders het gesprek grotendeels leidden.
 
-De intervisiegesprekken vinden plaats via videoconferenties (Microsoft Teams) of op campus, afhankelijk van de richtlijnen en afspraken met je begeleiders, op een vast moment tijdens de geroosterde contactmomenten. Het precieze tijdstip wordt afgesproken met de begeleiders van je team.
-
 De begeleiders observeren in eerste instantie en pikken in waar nodig of op vraag van de studenten. Tijdens de intervisiegesprekken bespreekt het team wat er de afgelopen week is gerealiseerd en maakt afspraken voor de komende periode. Reflecteer hier ook over. Wat ging moeilijk? Wat hebben jullie geleerd uit de opgedane ervaring? Waar zijn nog problemen mee en hoe ga je die aanpakken? Kan de werking van het team nog verbeterd worden? ... .
 
-Als je een technische vraag wil stellen buiten de contacturen, of over een onderwerp buiten de expertise van de begeleider van je groep, dan kan je gebruik maken van de chat-kanalen van het algemene Microsoft Team voor dit opleidingsonderdeel (dus liever niet in het Team van jouw projectgroep).
+## Planning
 
-### Groepen
+De planning over het semester ziet er als volgt uit:
 
-Een projectgroep bestaat uit 5 studenten (hiervan kan door de lectoren afgeweken worden indien nodig). Voor de kick-off kan je je via Chamilo inschrijven in één van de voorziene groepen. Studenten die in de tweede week nog niet toegewezen zijn aan een groep, worden door de begeleiders ingedeeld. We streven er daarbij naar om elke groep "op te vullen". Kleinere groepen kunnen enkel als er nog onvoldoende studenten ingeschreven zijn om aan te sluiten.
+### Week 1
 
-Studenten die bij aanvang van het semester nog niet ingeschreven zijn en willen aansluiten bij een bepaalde groep, kunnen dat laten weten aan de titularis van het project, [Sebastiaan Labijn](mailto:sebastiaan.labijn@hogent.be). Stuur een mail met de andere groepsleden in cc en vermeld zeker ook de naam van de groep.
+Gezamenlijke kick-off voor studenten van campus Aalst en Gent.
 
-Als je de cursus in **afstandsleren** volgt, is de kans reëel dat er geen volledige groepen gevormd kunnen worden. In dat geval wordt de scope van de opgave in overleg met de begeleiders aangepast.
+- Toelichting opgave
+- Toelichting organisatie door de begeleiders
+- Toelichting gebruik van JIRA voor projectmanagement
+- Inschrijven in groepen
 
-### Aanwezigheid
+### Vóór contactmoment week 2
 
-De beoordeling van het opleidingsonderdeel gebeurt op basis van "permanente evaluatie". Dit betekent dus dat je tijdens het semester voortdurend geëvalueerd zal worden op basis van observatie, enerzijds tijdens de contactmomenten (ook als die online verlopen), maar anderzijds ook via de tastbare bijdragen die je levert aan het project (GitHub commits, documentatie, ...).
-
-De wekelijkse intervisiegesprekken gaan steeds op campus door voor de reguliere studenten. Voor studenten afstandsleren gaan deze online via Teams door. Er zijn echter enkele momenten tijdens het semester voorzien voor een contactmoment op de campus. Tijdens deze on-campus contactmomenten krijgen jullie de kans om met fysieke netwerkapparatuur te werken om de opgegeven labotaken uit te voeren.
-
-**Aanwezigheid** tijdens de contactmomenten is voor iedereen verplicht en is onderdeel van de permanente evaluatie. Als je niet aanwezig kan zijn op een afspraak, moet je dat ook altijd wettigen (OER, art. 33), ook al vinden de opvolgingsgesprekken niet plaats op de campus. Als je een bepaalde afspraak niet kan nakomen, verwittig dan de begeleidende lector én je groepsgenoten. De afwezigheid moet officieel gemeld worden (ten laatste op de dag van de afspraak zelf) via iBamaFlex. Binnen de 48u na de melding moet de correcte wettiging opgeladen worden. Ben je **meer dan twee keer ongewettigd afwezig** dan zal je als 'afwezig' beoordeeld worden voor je proces en dus het OLOD. Deze afwezigheid neem je mee naar de volgende examenperiode. Studenten **TIAO** mogen **niet meer dan één keer** ongewettigd afwezig zijn.
-
-We verwachten dat jullie ook buiten de contacturen verder werken aan jullie opdrachten. Hou een gedetailleerd weekrapport bij, zoals we dat ook in System Engineering Lab gevraagd hebben. Op het einde van het semester zouden je gerapporteerde uren (incl. de duurtijd van de kick-off en alle contactmomenten) de totale studietijd voor het vak moeten benaderen, nl. 200 uren. Als je uren rapporteert, dan is er ook een tastbare neerslag van het geleverde werk. Dat kan code zijn, documentatie, testplannen of -rapporten, ... . Ook van opzoekingswerk om informatie te verzamelen over een opdracht die je moet uitvoeren maak je een verslag (met bronvermeldingen!) zodat jij én je teamleden gebruik kunnen maken van de kennis die je opgedaan hebt.
-
-Ongewettigde afwezigheid op de contactmomenten en/of een onvoldoende of onbewezen bijdrage aan het project kan als gevolg hebben dat je als examencijfer de vermelding "Afwezig" krijgt. Lees in dit verband ook het Departementaal Onderwijs- en ExamenReglement (DOER) na, in het bijzonder art. 4, § 3 over betrokkenheid bij groepswerk.
-
-### Planning
-
-Elke reguliere student wordt minstens een halve dag per week op de campus verwacht, tenzij anders gecommuniceerd door lectoren. TIAO volgens afspraak met de begeleiders via Teams of on campus. De exacte planning van contactmomenten en deadlines voor zowel reguliere als TIAO studenten wordt gepubliceerd op Chamilo. Die momenten zijn er om in team aan het project te werken waarbij ook de (netwerk)apparatuur ingezet kan worden. We maken van de gelegenheid gebruik om ook de intervisiegesprekken dan in te plannen.
-
-#### Week 1
-
-- kick-off;
-- toelichting organisatie door de begeleiders;
-- toelichting opgave;
-- inschrijven in groep;
-
-#### Vóór contactmoment week 2
-
-- verdelen in groepen + toewijzen taken;
+- definitieve verdeling in groepen
+- deeltaken definiëren en verdelen onder de teamleden;
 - opzetten werkomgeving;
   - GitHub: team repo;
   - kanban bord (Jira, gekoppeld aan team repo);
@@ -181,36 +216,31 @@ Elke reguliere student wordt minstens een halve dag per week op de campus verwac
   - vragen voor begeleiders (over opgave, technische moeilijkheden, inhoud studiewijzer, organisatie, ...);
   - planning voor volgende periode (= een week);
 
-#### Week 2
+### Week 2
 
 - eerste intervisiegesprek:
   - Heeft iedereen voldoende informatie over requirements?
   - Stel zo nodig vragen aan de begeleiders over onduidelijkheden in de opgave.
   - Maak afspraken over het gebruik van de "project management tools": Microsoft Teams, GitHub issues, kanban bord, Git (branches?, PRs?, trunk based?).
-- Technische documentatie opstarten: overzicht netwerk, IP-adrestabel, afbeelding netwerkstructuur, algemene structuur, ... .
+- Technische documentatie opstarten: overzicht netwerk, IP-adrestabel, afbeelding netwerkstructuur, algemene structuur, ...
 
-#### Week 3 t/m 12: tussentijdse sprints
+### Week 3 t/m 12: tussentijdse sprints
 
 Tussen contactmomenten door:
 
 - Individueel werken aan eigen taken.
 - Logboek en weekverslag consequent bijhouden (realisaties, tijdregistratie, planning, vragen).
 
-Tijdens contactmomenten:
+Wekelijks tijdens contactmomenten:
 
-- Wekelijks (technisch):
+- Team stand-up: overloop onderling jullie taken en de voortgang, signaleer problemen, bereid het intervisiegesprek voor.
+- Intervisiegesprekken met begeleiders.
+- Maak afspraken met elkaar waar nodig, zowel op technisch vlak als organisatorisch. Elke student wordt aangemoedigd om verbeteringen voor te stellen in de organisatie van het team. Bespreek dit onderling en/of met de begeleiders.
+- Help elkaar met technische problemen.
+- Neem nieuwe uitbreidingstaken op indien alles afgewerkt is (in samenspraak met het team en/of begeleiders).
+- **Begeleiders kunnen ten allen tijde nieuwe taken en/of gewenste functionaliteiten toevoegen/wijzigen aan de opdracht.**
 
-  - Help elkaar met technische problemen.
-  - Maak afspraken met elkaar waar nodig, zowel op technisch vlak als organisatorisch. Elke student wordt aangemoedigd om verbeteringen voor te stellen in de organisatie van het team. Bespreek dit onderling en/of met de begeleiders.
-  - Neem nieuwe taken op indien alles afgewerkt is (in samenspraak met het team en/of begeleiders).
-  - **Begeleiders kunnen ten allen tijde nieuwe taken en/of gewenste functionaliteiten toevoegen/wijzigen aan de opdracht.**
-  - Intervisiegesprekken met technische begeleider om eventuele technische problemen aan te pakken.
-
-- Tweewekelijks (analyse):
-  - team stand-ups;
-  - intervisiegesprekken met analyse begeleider (a.d.h.v. logboek);
-
-#### Week 12: finale oplevering
+### Week 12: finale oplevering
 
 Op het einde van het semester demonstreren jullie het resultaat. Toon aan dat jullie het gehele netwerk volledig geautomatiseerd en "from scratch" kunnen opzetten. De tijd is beperkt dus bereid dit goed voor.
 
@@ -222,12 +252,9 @@ Dit opleidingsonderdeel wordt volledig beoordeeld op basis van permanente evalua
 
 ### Dossier
 
-De evaluatie is voor een belangrijk deel gebaseerd op basis van het projectdossier. Dit bestaat voor elke projectteam uit de GitHub repository die het eindproduct en bijhorende technische documentatie bevat, en ook de weekverslagen en rapporten over tijdregistratie. Ook het kanban bord van elk team wordt als onderdeel van het dossier beschouwd.
+De evaluatie is voor een belangrijk deel gebaseerd op basis van het projectdossier. Dit bestaat voor elke projectteam uit de GitHub repository die het eindproduct en bijhorende technische documentatie bevat, en ook de weekverslagen en rapporten over tijdregistratie. Ook alle informatie rond de projectwerking die in JIRA bijgehouden wordt (kanban-bord en tijdregistratie) wordt als onderdeel van het dossier beschouwd.
 
-- Zorg ervoor dat de [README.md](./README.md) een overzicht biedt van de inhoud van de repository. De begeleiders moeten aan de hand daarvan snel alle nodige info kunnen terugvinden.
-- Bekijk alle `README.md` bestanden in de repo voor meer informatie over de verwachte resultaten, bestanden, ... die we wensen te zien in deze GitHub repo.
-
-**Let op!** Aan het einde van het academiejaar worden alle repositories verwijderd. Als je jullie code voor later wil bijhouden, moet je dus zelf tijdig voor een back-up zorgen.
+:exclamation: **Let op!** Aan het einde van het academiejaar worden alle repositories verwijderd. Als je jullie code voor later wil bijhouden, moet je dus zelf tijdig voor een back-up zorgen.
 
 ### Tijdsbesteding
 
@@ -241,7 +268,7 @@ De begeleiders beoordelen in onderling overleg enerzijds de teams als geheel en 
 
 Aan de hand van een rekenregel worden de beoordelingen voor alle criteria omgezet in een examencijfer. De evaluatiekaart met alle criteria en indicatoren, en rekenregels om het examencijfer te bepalen zal worden gepubliceerd op Chamilo.
 
-Studenten die onvoldoende betrokkenheid (DOER, art. 4, §3) vertonen bij het projectwerk, zullen uitgenodigd worden tot een functioneringsgesprek. De lectoren kunnen hier het initiatief toe nemen, maar studenten kunnen ook melden als een teamlid onvoldoende bijdraagt tot het slagen van het project.
+Studenten die **onvoldoende betrokkenheid** vertonen bij het projectwerk, zullen uitgenodigd worden tot een individueel functioneringsgesprek. De lectoren kunnen hier het initiatief toe nemen, maar studenten kunnen ook melden als een teamlid onvoldoende bijdraagt tot het slagen van het project (bv. via de peer-evaluatie).
 
 Indien de student afwezig is op het functioneringsgesprek, of als na het gesprek blijkt dat diens gedrag niet significant is verbeterd, dan krijgt de betrokken student als quotering "afwezig" voor de eerste examenkans. Onder een gebrek aan betrokkenheid verstaan we onder andere:
 
@@ -258,7 +285,7 @@ Wie niet slaagt in de eerste examenkans, krijgt voor de tweede examenkans een pe
 
 De deadline voor het indienen van deze opdracht is de eerste dag na het zomerreces. Het dossier bestaat uit de GitHub repository die je toegewezen wordt. Deze bevat naast code en technische documentatie ook een logboek en tijdregistratie. We hebben wat dat betreft dezelfde verwachtingen als in de eerste examenkans. Je houdt dus regelmatig je logboek bij, registreert consequent gepresteerde werkuren en zorgt dat de technische documentatie volledig is. De toestand van je repository op het moment van de deadline wordt beschouwd als je inzending, latere wijzigingen worden niet in rekening gebracht. Je komt een demonstratie geven van het resultaat van deze opdracht op de plaats en tijdstip die in het examenrooster is voorzien.
 
-Wanneer je echter geen repository aangemaakt hebt, zelf geen code gecommit hebt, of het dossier is onvolledig, dan krijg je als quotering meteen "afwezig" en volgt er ook geen demonstratie. Je wordt in datgeval hier per e-mail op de hoogte gebracht.
+Wanneer je echter geen repository aangemaakt hebt, zelf geen code gecommit hebt, of het dossier is onvolledig, dan krijg je als quotering meteen "afwezig" en volgt er ook geen demonstratie. Je wordt in dat geval hier per e-mail op de hoogte gebracht.
 
 Omdat het onderdeel Analyse niet beoordeeld kan worden in de tweede examenkans, wordt voor deze criteria de beoordeling van de eerste examenkans ongewijzigd overgenomen. Het gezamenlijk gewicht van deze criteria is 30% van het totale examencijfer. Een beoordeling "nog niet bekwaam" voor beide betekent in de praktijk dat je nog max. 14/20 kan halen, en enkel op voorwaarde dat je op alle andere criteria het hoogste niveau haalt.
 

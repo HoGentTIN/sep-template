@@ -1,12 +1,12 @@
-# System Engineering Project
+# System Engineering Project - GROEP
 
-| Naam     | GitHub gebruikersnaam                   |
-| :------- | :-------------------------------------- |
-| student1 | [student1](https://github.com/student1) |
-| student2 | [student2](https://github.com/student2) |
-| student3 | [student3](https://github.com/student3) |
-| student4 | [student4](https://github.com/student4) |
-| student5 | [student5](https://github.com/student5) |
+| Naam            | GitHub gebruikersnaam                   |
+| :-------------- | :-------------------------------------- |
+| VOORNAAM NAAM 1 | [GH_USER1](https://github.com/student1) |
+| VOORNAAM NAAM 2 | [GH_USER2](https://github.com/student2) |
+| VOORNAAM NAAM 3 | [GH_USER3](https://github.com/student3) |
+| VOORNAAM NAAM 4 | [GH_USER4](https://github.com/student4) |
+| VOORNAAM NAAM 5 | [GH_USER5](https://github.com/student5) |
 
 Dit is de repository voor het projectvak System Engineering Project.
 
@@ -14,47 +14,9 @@ Dit is de repository voor het projectvak System Engineering Project.
 
 :bulb: Bij templates wordt er gebruik gemaakt van `<!-- Markdown comments. -->`. Open deze met een teksteditor en vervang deze door wat er gevraagd wordt. Previews tonen deze comments default niet, vandaar dat het belangrijk is om een teksteditor te gebruiken.
 
-## Voorbereiding
-
-Volgende taken worden door **één groepslid** uitgevoerd:
-
-- Maak de centrale GitHub repo aan via de GitHub classroom link.
-- Voeg alle teamleden toe aan de GitHub repo.
-- Maak de Jira site aan en configureer deze.
-- Maak het kanban bord aan.
-
-Volgende taken dienen door **elk groepslid** uitgevoerd te worden:
-
-- Vul de tabel bovenaan dit document aan met jouw GitHub account.
-- Lees de [studiewijzer](./studiewijzer.md) en alle `README.md` bestanden in de repository goed door.
-
-Volgende taken dienen **als team** uitgevoerd te worden:
-
-- Opstellen roadmap. Dit is een visueel overzicht van de 12 weken planning van het project. Dit kan je doen in Jira. Ten laatste tegen week 3 is een eerste draft aangemaakt.
-  - Leg de werkverdeling voor de eerste week vast.
-  - Voeg de planning toe aan het kanban bord: maak de juiste tickets aan.
-- Lees je in en doe research voor bepaalde onderwerpen.
-
-Op Chamilo kan je ook de slides van de kick-off terugvinden en de opname ervan herbekijken.
-
-## Tijdens het project
-
-Wekelijks/tweewekelijks:
-
-- Maak een [opvolgingsrapport](./analyse/README.md) aan **voor** aanvang van het contactmoment.
-
-Bij aanvang nieuwe deelopdracht:
-
-- Maak een map voor de [opdracht](./opdrachten/README.md) in [opdrachten](./opdrachten/) en plaats daar alle benodigde documenten (broncode, lastenboek, testplan, testrapport, ...) in.
-
-## Bij het afwerken van het project
-
-Vul dit document onderaan aan met een inhoudstabel waar we alle belangrijke documenten kunnen vinden.
-
-## Afspraken ivm communicatie, gebruik tools
-
-Beschrijf hier of in een apart document al wat jullie onderling of met jullie begeleiders afgesproken hebben i.v.m. samenwerken: werkwijze gebruik versiebeheer, kanban bord en tijdregistratie, voorbereiden weekrapporten, ... .
-
 ## Inhoud GitHub repo
 
-<!-- Vul aan. -->
+- [doc/](./doc/README.md): Documentatie geschreven door het team.
+- [info/](./info/README.md): Informatie ivm de opdracht en praktische organisatie van dit opleidingsonderdeel (studiewijzer).
+- [opvolging/](./opvolging/README.md): Opvolgingsrapporten.
+- [src/](./src/README.md): Broncode voor het opzetten van de infrastructuur.
