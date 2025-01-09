@@ -161,8 +161,7 @@ In dit project werken we samen in grotere en verspreide teams. Een goede, open c
 
 Enkele richtlijnen:
 
-- Gebruik geen Facebook of andere sociale media voor onderlinge communicatie, maar enkel kanalen die geschikt zijn voor professioneel gebruik (zie verder).
-- De begeleiders kan toegang vragen tot alle communicatiekanalen die het team gebruikt. Het team is verantwoordelijk voor het verlenen van deze toegang.
+- Maak doelmatig gebruik van de opgelegde tools (ihb Github en JIRA) om onderling en met de begeleiders te communiceren.
 - Als je mondeling afspraken maakt met teamleden of begeleiders, maak dan onmiddellijk een verslag dat gepubliceerd wordt voor heel het team. In het bijzonder: van de wekelijkse intervisiegesprekken wordt er telkens een verslag gemaakt door één van de teamleden en zo snel mogelijk gepubliceerd op de team-repo.
 - Gebruik zoveel mogelijk elektronische vormen van communicatie, zodat teamleden op een andere locatie de kans hebben om dit mee te volgen, of op zijn minst toegang hebben tot de neerslag ervan.
 
@@ -171,7 +170,6 @@ Onder "bedrijfscultuur" verstaan we de manier waarop mensen binnen een organisat
 - We behandelen elkaar met respect, ook al zijn we het niet met elkaar eens.
 - Personen worden niet met de vinger gewezen als er iets fout gaat. Fouten of problemen zien we als een opportuniteit om ervaring op te doen en van elkaar te leren. We steken geen energie in het afschuiven van schuld of verantwoordelijkheid, maar zoeken naar manieren om dit in de toekomst te vermijden.
 - Geef elkaar ook de ruimte om een bijdrage te leveren aan het geheel. Teamleden die technisch sterker staan mogen de anderen gerust helpen, maar moeten het niet overnemen. Wees een mentor voor je teamgenoten, geen pletwals.
-
 
 ## Studiebegeleiding
 
