@@ -26,11 +26,13 @@ Inhoud:
     - [Vóór contactmoment week 2](#vóór-contactmoment-week-2)
     - [Week 2](#week-2)
     - [Week 3 t/m 12: tussentijdse sprints](#week-3-tm-12-tussentijdse-sprints)
+    - [Week 4: Eerste peer-evaluatie](#week-4-eerste-peer-evaluatie)
     - [Week 6: Trial run basisopstelling](#week-6-trial-run-basisopstelling)
     - [Week 7: Oplevering basisopstelling](#week-7-oplevering-basisopstelling)
-    - [Week 10](#week-10)
+    - [Week 8: Tweede peer-evaluatie](#week-8-tweede-peer-evaluatie)
+    - [Week 10: verlofdag](#week-10-verlofdag)
     - [Week 11: trial run finale oplevering](#week-11-trial-run-finale-oplevering)
-    - [Week 12: finale oplevering](#week-12-finale-oplevering)
+    - [Week 12: finale oplevering + peer-evaluatie](#week-12-finale-oplevering--peer-evaluatie)
   - [Evaluatie](#evaluatie)
     - [Dossier](#dossier)
     - [Tijdsbesteding](#tijdsbesteding)
@@ -261,6 +263,14 @@ Wekelijks tijdens contactmomenten:
 - Neem nieuwe uitbreidingstaken op indien alles afgewerkt is (in samenspraak met het team en/of begeleiders).
 - **Begeleiders kunnen ten allen tijde nieuwe taken en/of gewenste functionaliteiten toevoegen/wijzigen aan de opdracht.**
 
+### Week 4: Eerste peer-evaluatie
+
+Met de tool BuddyCheck beoordeel je de bijdrage van jezelf en je teamleden aan het geheel van het project. Tijdens de intervisiegesprekken wordt dit besproken. Als er pijnpunten naar boven komen, zoeken we samen naar een oplossing.
+
+De resultaten van de peer-evaluaties zijn elementen die meegenomen worden in de eindbeoordeling.
+
+:exclamation: Het is belangrijk om de peer-evaluatie eerlijk en constructief in te vullen. Als je vindt dat een teamlid bijvoorbeeld onvoldoende bijdraagt, of ook omgekeerd zich te dominant opstelt, dan is het belangrijk om dit ook tijdig aan te kaarten. Je hebt misschien de nijging om elkaar in eerste instantie krediet te geven om de sfeer niet te verzieken, maar het is beter om een moeilijke conversatie vroeg genoeg te voeren dan te wachten tot het te laat is! De betrokken student krijgt op deze manier ook ruim de kans om zijn of haar gedrag bij te sturen.
+
 ### Week 6: Trial run basisopstelling
 
 Zet de basisopstelling op *from scratch*. Identificeer problemen en maak de nodige JIRA tickets aan om deze tegen volgende week aan te pakken en wijs deze toe aan teamleden.
@@ -269,7 +279,9 @@ Zet de basisopstelling op *from scratch*. Identificeer problemen en maak de nodi
 
 De basisopstelling moet *from scratch* opgezet worden binnen een vooraf opgelegde tijdspanne. De tijd is beperkt dus bereid dit goed voor. Dit is een onderdeel van de evaluatie!
 
-### Week 10
+### Week 8: Tweede peer-evaluatie
+
+### Week 10: verlofdag
 
 Geen contactmoment voor reguliere studenten (1 mei)
 
@@ -277,11 +289,13 @@ Geen contactmoment voor reguliere studenten (1 mei)
 
 Zoals W6, maar nu met de volledige opstelling.
 
-### Week 12: finale oplevering
+### Week 12: finale oplevering + peer-evaluatie
 
 Op het einde van het semester demonstreren jullie het resultaat. Toon aan dat jullie het gehele netwerk volledig geautomatiseerd en *from scratch* kunnen opzetten. 
 
-Voor de reguliere studenten zal dit normaal doorgaan in week 12, planning volgt via Chamilo. Voor studenten afstandsleren wordt er in onderling overleg een moment afgesproken.
+Je vult ook de derde peer-evaluatie in.
+
+Afspraken ivm praktische planning wordt via Chamilo gecommuniceerd. Voor studenten afstandsleren wordt er in onderling overleg een moment afgesproken.
 
 ## Evaluatie
 
