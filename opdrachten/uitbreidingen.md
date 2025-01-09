@@ -28,6 +28,10 @@ In deze paragraaf worden uitbreidingen voor de basisomgeving omschreven. Hier ka
 - Zowel DHCP als (interne) DNS worden uitgebreid met IPv6
 - Verkeer tussen de eigen servers gaat bij voorkeur over IPv6 (werk dus de servers bij).
 
+## Automatiseren aanmaak van de Windows VM's
+
+- Automatiseer de aanmaak van de Windows toestellen via VBManage.
+
 ## CA installeren en certificaten uitrollen op Windows
 
 - Rol een Certificate Authority (CA) uit op een Windows Server. Dit kan door de bestaande Domain Controller van het domain te gebruiken of door een afzonderlijke, nieuwe, Windows server machine toe te voegen. Je gebruikt hiervoor best de Active Directory Certificate Services feature.
