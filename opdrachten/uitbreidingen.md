@@ -38,6 +38,22 @@ In deze paragraaf worden uitbreidingen voor de basisomgeving omschreven. Hier ka
 
 - Zorg voor een redundante Windows server set-up zodanig dat de functionaliteit van het domain gegarandeerd blijft wanneer de DC onbeschikbaar zou worden.
 
+## Werken met een Trust
+
+- Maak een extra Domein Controller aan binnen een ander Active Directory-domein.
+- Zorg ervoor dat een gebruiker uit het ene domein kan inloggen op een toestel in het andere domein en daar toegang heeft tot 
+bepaalde bronnen. 
+
+## Uitgebreide GPO's
+
+- Maak een extra groep aan waarbij volgende beperkingen worden opgelegd aan de gebruikers die hiervan deel uitmaken:
+  * Geen toegang tot externe opslag.
+  * De achtergrond van het bureaublad is bij deze gebruikers egaal van kleur en onaanpasbaar.
+  * Wijzigingen aan de taakbalk zijn niet toegestaan.
+  * Bestanden mogen enkel op de persoonlijke netwerkshare van de gebruiker opgeslaan worden of in de 'Downloads'-folder.
+  * De folder 'Downloads' wordt automatisch gellegd bij uitloggen.
+  * Toegang tot Command Prompt, Powershell, en de Windows Register-editor is geblokkeerd.
+
 ## Matrix.org linux server
 
 - Installeer [Synapse](https://matrix.org/docs/projects/server/synapse). Dit is een server voor het matrix.org protocol dat in de open source community steeds meer IRC en andere chatsystemen vervangt. Je kan er makkelijk bots op programmeren en bridges installeren naar andere chatplatformen zoals Discord, Messenger, ... . Daarnaast zijn chats default geëncrypteerd en onleesbaar voor admins.
