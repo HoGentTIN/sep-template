@@ -52,11 +52,30 @@ Dit project heeft als belangrijkste doelstelling het in team opzetten van **comp
 
 ## Leerinhoud
 
+- Technische competenties:
+
+    - Integratie van netwerkservices
+    - Linux , Windows, Cisco, Cybersecurity
+    - Technische documentatie
+    - Testen
+    - Versiebeheer
+
+- Projectmanagement en professioneel handelen
+
+    - Toepassen agile ontwikkelstrategieën - Kanban
+    - Creativiteit
+    - Korte en Middellange termijnplanning adhv ontwikkelingsmethode en organisatie (inclusief testplan-uitvoering-testen)
+    - Omgaan met feedback
+    - Organisatie en stiptheid
+    - Professioneel handelen
+    - Reflecteren
+    - Resultaat en kwaliteitsgerichtheid
+    - Teamwork; Individu in de groep; Groepfunctioneren
 
 ## Leerdoelen en competenties
 
 
-Zie ook de [studiefiche](https://www.hogent.be/studiefiches/) of de [Chamilo-cursus](https://chamilo.hogent.be).
+Zie ook de Chamilo-cursus en studiefiche.
 
 Technische competenties:
 
