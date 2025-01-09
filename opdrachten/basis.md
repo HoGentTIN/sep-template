@@ -70,7 +70,7 @@ Windows Servers bestaan enkel uit **CLI** gebaseerde VMs, een GUI is hier immers
 - Zorg ervoor dat de PC's en servers geen lokale gebruikers hebben, maar dat de authenticatie gebeurt via de DC. Verdeel de gebruikers in groepen met verschillende rechten. Denk hier zorgvuldig over na en zorg ervoor dat je bij minstens één gebruikersgroep afdwingt dat ze op bepaalde toestellen niet kunnen inloggen. Doe dit aan de hand van een Group Policy.
 - Voorzie voor elke gebruiker een shared folder op deze DC.
 - De Domain Controller is ook de DNS-server van het domain. Zorg ervoor dat deze alle DNS-queries binnen het domain kan beantwoorden. Voorzie dus de nodige A-records, PTR-records en CNAME-records voor de verschillende servers en clients. Queries voor andere domainen moet de DC doorsturen naar een forwarder naar keuze.
-- Automatiseer dit alles zoveel mogelijk. Gebruik hiervoor scripts met VboxManage om de VM's aan te maken in Virtualbox, en PowerShell-commando's om de VM's nadien te configureren.
+- Zorg dat de configuratie automatisch gebeurt met behulp van PowerShell scripts. 
 
 ### Linux servers
 
