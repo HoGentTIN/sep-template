@@ -58,6 +58,13 @@ Daarnaast verwachten we op deze GitHub repo het volgende:
 
     - Algemeen **netwerkschema** en **IP-adrestabel**;
 
+    - Algemene **afspraken** binnen het team ivm communicatie, gebruik tools (onderling en met begeleiders):
+
+        - Werkwijze gebruik versiebeheer (bv. branching of trunk-based development)
+        - Kanban-bord en tijdregistratie
+        - Voorbereiden opvolgingsgesprekken
+        - ...
+
     - Duidelijke **directorystructuur** per deeltaak, met voor elke deeltaak de hieronder opgesomde documenten
 
     - **Technische documentatie** zoals
