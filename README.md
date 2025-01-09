@@ -2,11 +2,11 @@
 
 | Naam            | GitHub gebruikersnaam                   |
 | :-------------- | :-------------------------------------- |
-| VOORNAAM NAAM 1 | [GH_USER1](https://github.com/student1) |
-| VOORNAAM NAAM 2 | [GH_USER2](https://github.com/student2) |
-| VOORNAAM NAAM 3 | [GH_USER3](https://github.com/student3) |
-| VOORNAAM NAAM 4 | [GH_USER4](https://github.com/student4) |
-| VOORNAAM NAAM 5 | [GH_USER5](https://github.com/student5) |
+| VOORNAAM NAAM 1 | [GH_USER1](https://github.com/GH_USER1) |
+| VOORNAAM NAAM 2 | [GH_USER2](https://github.com/GH_USER2) |
+| VOORNAAM NAAM 3 | [GH_USER3](https://github.com/GH_USER3) |
+| VOORNAAM NAAM 4 | [GH_USER4](https://github.com/GH_USER4) |
+| VOORNAAM NAAM 5 | [GH_USER5](https://github.com/GH_USER5) |
 
 Dit is de repository voor het projectvak System Engineering Project.
 

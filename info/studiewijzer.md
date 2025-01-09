@@ -26,13 +26,17 @@ Inhoud:
     - [Vóór contactmoment week 2](#vóór-contactmoment-week-2)
     - [Week 2](#week-2)
     - [Week 3 t/m 12: tussentijdse sprints](#week-3-tm-12-tussentijdse-sprints)
+    - [Week 6: Trial run basisopstelling](#week-6-trial-run-basisopstelling)
+    - [Week 7: Oplevering basisopstelling](#week-7-oplevering-basisopstelling)
+    - [Week 10](#week-10)
+    - [Week 11: trial run finale oplevering](#week-11-trial-run-finale-oplevering)
     - [Week 12: finale oplevering](#week-12-finale-oplevering)
   - [Evaluatie](#evaluatie)
     - [Dossier](#dossier)
     - [Tijdsbesteding](#tijdsbesteding)
     - [Eerste examenkans](#eerste-examenkans)
     - [Tweede examenkans](#tweede-examenkans)
-    - [Inhaalkansen](#inhaalkansen)
+    - [Inhaalkansen bij gewettigde afwezigheid](#inhaalkansen-bij-gewettigde-afwezigheid)
 
 
 ## Doel en plaats van de cursus in het curriculum
@@ -240,9 +244,25 @@ Wekelijks tijdens contactmomenten:
 - Neem nieuwe uitbreidingstaken op indien alles afgewerkt is (in samenspraak met het team en/of begeleiders).
 - **Begeleiders kunnen ten allen tijde nieuwe taken en/of gewenste functionaliteiten toevoegen/wijzigen aan de opdracht.**
 
+### Week 6: Trial run basisopstelling
+
+Zet de basisopstelling op *from scratch*. Identificeer problemen en maak de nodige JIRA tickets aan om deze tegen volgende week aan te pakken en wijs deze toe aan teamleden.
+
+### Week 7: Oplevering basisopstelling
+
+De basisopstelling moet *from scratch* opgezet worden binnen een vooraf opgelegde tijdspanne. De tijd is beperkt dus bereid dit goed voor. Dit is een onderdeel van de evaluatie!
+
+### Week 10
+
+Geen contactmoment voor reguliere studenten (1 mei)
+
+### Week 11: trial run finale oplevering
+
+Zoals W6, maar nu met de volledige opstelling.
+
 ### Week 12: finale oplevering
 
-Op het einde van het semester demonstreren jullie het resultaat. Toon aan dat jullie het gehele netwerk volledig geautomatiseerd en "from scratch" kunnen opzetten. De tijd is beperkt dus bereid dit goed voor.
+Op het einde van het semester demonstreren jullie het resultaat. Toon aan dat jullie het gehele netwerk volledig geautomatiseerd en *from scratch* kunnen opzetten. 
 
 Voor de reguliere studenten zal dit normaal doorgaan in week 12, planning volgt via Chamilo. Voor studenten afstandsleren wordt er in onderling overleg een moment afgesproken.
 
@@ -252,7 +272,7 @@ Dit opleidingsonderdeel wordt volledig beoordeeld op basis van permanente evalua
 
 ### Dossier
 
-De evaluatie is voor een belangrijk deel gebaseerd op basis van het projectdossier. Dit bestaat voor elke projectteam uit de GitHub repository die het eindproduct en bijhorende technische documentatie bevat, en ook de weekverslagen en rapporten over tijdregistratie. Ook alle informatie rond de projectwerking die in JIRA bijgehouden wordt (kanban-bord en tijdregistratie) wordt als onderdeel van het dossier beschouwd.
+De evaluatie is voor een belangrijk deel gebaseerd op basis van het projectdossier. Dit bestaat voor elke projectteam uit de **GitHub** repository die het eindproduct en bijhorende technische documentatie bevat, en ook de weekverslagen en rapporten over tijdregistratie. Ook alle informatie rond de projectwerking die in **JIRA** bijgehouden wordt (kanban-bord en tijdregistratie) wordt als onderdeel van het dossier beschouwd.
 
 :exclamation: **Let op!** Aan het einde van het academiejaar worden alle repositories verwijderd. Als je jullie code voor later wil bijhouden, moet je dus zelf tijdig voor een back-up zorgen.
 
@@ -263,6 +283,11 @@ Eén van de competenties die we bij het project willen bijbrengen is het bewust 
 Aan het einde van het project moet je in **totaal 200 werkuren** kunnen inbrengen, wat de totale begrote studietijd is volgens de studiefiche. Verdeeld over 12 weken komt dat op ongeveer 17 uur per week. Dat omvat zowel de tijd van alle contactmomenten opgeteld (incl. de kick-off!), als de tijd die je daarbuiten hebt gespendeerd aan het project (info opzoeken, individueel werken aan de opdracht, teamoverleg buiten de contactmomenten, ... ).
 
 ### Eerste examenkans
+
+Het examencijfer is opgebouwd uit volgende componenten:
+
+- 70% Eindproduct en resultaat
+- 30% Observatie van functioneren van de student
 
 De begeleiders beoordelen in onderling overleg enerzijds de teams als geheel en anderzijds de individuele teamleden. Ze gebruiken hiervoor een evaluatiekaart gebaseerd op rubrics. Rubrics zijn een evaluatiesysteem waar je volgens verschillende categorieën en aan de hand van duidelijk beschreven indicatoren beoordeeld wordt op de mate waarin je de beoogde leerresultaten verworven hebt. De begeleiders beoordelen voor elke categorie welk niveau je behaald hebt. Voor enkele beoordelingscriteria **moet** elke student **individueel** kunnen aantonen dat zij of hij aan de verwachtingen voldoet om te kunnen slagen. Dewelke dit zijn is aangegeven in de evaluatiekaart. Manieren om de eigen bijdrage aan te tonen zijn bijvoorbeeld de opgeleverde code en documentatie (na te gaan via historiek van het versiebeheersysteem), verslagen van de wekelijkse opvolgingsgesprekken, je weekverslagen of observatie door de begeleiders tijdens de evaluatiemomenten.
 
@@ -283,13 +308,18 @@ Indien de student afwezig is op het functioneringsgesprek, of als na het gesprek
 
 Wie niet slaagt in de eerste examenkans, krijgt voor de tweede examenkans een persoonlijke opdracht. De opgave wordt via Chamilo gepubliceerd na de bekendmaking van de punten. Wie wil vragen stellen over deze opgave kan dit enkel tijdens de feedback doen. Er geen verdere begeleiding voorzien.
 
+Het examencijfer is ook in de tweede zittijd opgebouwd uit:
+
+- 70% Eindproduct en resultaat
+- 30% Observatie van functioneren van de student
+
 De deadline voor het indienen van deze opdracht is de eerste dag na het zomerreces. Het dossier bestaat uit de GitHub repository die je toegewezen wordt. Deze bevat naast code en technische documentatie ook een logboek en tijdregistratie. We hebben wat dat betreft dezelfde verwachtingen als in de eerste examenkans. Je houdt dus regelmatig je logboek bij, registreert consequent gepresteerde werkuren en zorgt dat de technische documentatie volledig is. De toestand van je repository op het moment van de deadline wordt beschouwd als je inzending, latere wijzigingen worden niet in rekening gebracht. Je komt een demonstratie geven van het resultaat van deze opdracht op de plaats en tijdstip die in het examenrooster is voorzien.
 
 Wanneer je echter geen repository aangemaakt hebt, zelf geen code gecommit hebt, of het dossier is onvolledig, dan krijg je als quotering meteen "afwezig" en volgt er ook geen demonstratie. Je wordt in dat geval hier per e-mail op de hoogte gebracht.
 
-Omdat het onderdeel Analyse niet beoordeeld kan worden in de tweede examenkans, wordt voor deze criteria de beoordeling van de eerste examenkans ongewijzigd overgenomen. Het gezamenlijk gewicht van deze criteria is 30% van het totale examencijfer. Een beoordeling "nog niet bekwaam" voor beide betekent in de praktijk dat je nog max. 14/20 kan halen, en enkel op voorwaarde dat je op alle andere criteria het hoogste niveau haalt.
+Omdat het onderdeel *Observatie van functioneren van de student* niet beoordeeld kan worden in de tweede examenkans, wordt voor deze criteria de beoordeling van de eerste examenkans ongewijzigd overgenomen (hetzij een cijfer, hetzij de vermelding *Afwezig*).
 
-### Inhaalkansen
+### Inhaalkansen bij gewettigde afwezigheid
 
 De evaluatiemomenten zijn een groepsgebeuren en de opdracht is geïntegreerd. Het resultaat van je werk individueel tonen is niet mogelijk omdat het afhangt van het werk van het gehele team.
 
