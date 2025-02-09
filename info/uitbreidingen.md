@@ -12,7 +12,7 @@ In deze paragraaf worden uitbreidingen voor de basisomgeving omschreven. Hier ka
 
 - Ontdubbel je router: werk een redundante (passive) router uit die een kabelbreuk naar de switch, een kabelbreuk naar de ISP, of een falen van de eerste router, kan opvangen.
   Let wel: dit opzetten is enkel mogelijk vanaf iteratie 2!
-  Als extern IP-adres werk je niet met DHCP, maar met een statisch IP (zie NAT port forwarding). De tweede router ken je 172.22.200.**10X**/16 toe, waarbij **X** staat voor jullie groepsnummer.
+  Als extern IP-adres werk je niet met DHCP, maar met een statisch IP (zie NAT port forwarding). De tweede router ken je 172.22.200.**10X**/16 toe, waarbij **X** staat voor jullie groepsnummer. FHRP configureer je enkel in jouw netwerk, niet aan de ISP-side.
 - In een testplan test je ook de drie verschillende scenario's.
 - Beide routers worden geconfigureerd vanaf de TFTP-server.
 
@@ -84,3 +84,12 @@ bepaalde bronnen.
 ## Reverse proxy hardening
 
 - Wat moeilijker dan het verbergen van de versie van de reverse proxy, is het verbergen van het type / gebruikte software pakket. Zoek uit hoe nmap geen of het verkeerde type reverse proxy weergeeft.
+
+## IoT hardware server
+
+- Implementeer één van jouw VMs op een fysiek IoT device, zoals
+  - een RaspBerry Pi
+  - een PcEngines ALIX (legacy)
+  - een device in overleg met de lectoren
+- Het IoT device kan je installeren met een default install procedure naar keuze
+- Jouw configuratie-script logt in met ssh op dit toestel, en voert (automatisch) alle verder configuraties uit (net zoals je zou doen met een VM).

@@ -45,7 +45,7 @@ Alle servers die je opzet maken gebruik van dit netwerk. Je simuleert dit netwer
   - De configuraties van de netwerktoestellen worden vanaf een **TFTP-server** (zie Linux) opgeladen [^5] - manuele aanpassingen nadien zijn te vermijden en stel je bij in de configs op deze TFTP-server!
   - In de eerste iteratie van jouw set-up stuur je het verkeer door naar een default ISP-router, opgezet door de lectoren. De **static routes** die de ISP moet configureren naar jouw router worden doorgeven aan de netwerk-lector.
 - De gehele opstelling wordt lokaal uitgevoerd met VMs en de aanwezige apparatuur in het netwerklokaal.
-  - De VMs draaien op de laptops van de studenten - je switcht de VM naar **bridged mode** als je hem aansluit op je eigen netwerk. Als er meerdere VM's op een enkele laptop moeten draaien: denk goed op voorhand na over deze verdeling (CPUs, RAM) om performantiebottlenecks en andere problemen te vermijden.
+  - De VMs draaien op de laptops van de studenten - je switcht de VM naar **bridged mode** als je hem aansluit op je eigen netwerk. Wat wordt jouw default gateway eens je aansluit op jouw eigen netwerk? Als er meerdere VM's op een enkele laptop moeten draaien: denk goed op voorhand na over deze verdeling (CPUs, RAM) om performantiebottlenecks en andere problemen te vermijden.
 
 [^5]: Zie extra Packet Tracer oefening: "PT Backing Up Configuration Files using TFTP".
 
