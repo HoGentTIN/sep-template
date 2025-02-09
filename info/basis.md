@@ -20,20 +20,20 @@ Voor de basisomgeving gebruik je een domeinnaam met volgende structuur:
 
 ## Netwerk
 
-Het netwerk en alle servers worden uitgewerkt met IPv4; IPv6 is een challenge. Plan vooraf de nodige subnetten en verspil geen IP-adressen. Alle subnetten kies je binnen de vastgelegde range 192.168.10**X**.0/24, waarbij 10**X** staat voor jullie groepsnummer vermeerderd met 100. De default gateway die de ISP (zie onder) bij iteratie 1 zal gebruiken is 192.168.10**X**.254/30, en komt dus uit jouw eigen range van adressen! Jouw uplink interface gebruikt 192.168.10**X**.253/30.
+Het netwerk en alle servers worden uitgewerkt met IPv4; IPv6 is een challenge. Plan vooraf de nodige subnetten en verspil geen IP-adressen. Alle subnetten kies je binnen de vastgelegde range 192.168.20**X**.0/24, waarbij 10**X** staat voor jullie groepsnummer vermeerderd met 200. De default gateway die de ISP (zie onder) bij iteratie 1 zal gebruiken is 192.168.20**X**.1/30, en komt dus uit jouw eigen range van adressen! Jouw uplink interface gebruikt 192.168.20**X**.2/30.
 
 ### Basisnetwerk - iteratie 1
 
 Alle servers die je opzet maken gebruik van dit netwerk. Je simuleert dit netwerk in [Packet Tracer](https://www.netacad.com/portal/resources/packet-tracer), en test de (deels geautomatiseerde) uitrol op de netwerkapparatuur in het leslokaal. In een eerste iteratie baseer je jou op de kennis verworven in 'Computer Networks 2'.
 
 - Voorzie VLANs voor servers, employees en DMZ:
-  - VLAN 42 Interne servers
+  - VLAN 11 Interne servers
     - Vaste, private IP-adressen
     - De IP-adressen corresponderen met de adressering van de servers.
-  - VLAN 11 Werkstations employees
+  - VLAN 12 Werkstations employees
     - Dynamische, private IP-adressen (via DHCP)
     - Kunnen interne servers en Internet bereiken
-  - VLAN 13 DMZ
+  - VLAN 14 DMZ
     - Vaste, private IP-adressen
     - Is bereikbaar vanop Internet; is ook bereikbaar vanuit de VLAN van de employees
     - Kan zelf ook de nodige servers binnen de VLAN van de Interne servers bereiken - maar enkel de nodige!
