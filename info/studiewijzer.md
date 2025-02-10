@@ -151,7 +151,7 @@ Daaronder verstaan we onder andere:
 - Een goede werkethiek: presteer de nodige uren en lever een tastbare bijdrage aan het teamwerk.
 - Het opnemen van je verantwoordelijkheid voor jouw taken.
 - Dat je initiatief neemt i.p.v. te wachten tot iemand je zegt wat je moet doen.
-- Dat je niet op je lauweren gaat rusten als je deelopdracht "lichter" blijkt dan die van andere teamleden, maar dat je proactief bespreek met het team of de begeleiders wat je nog meer kan doen.
+- Dat je niet op je lauweren gaat rusten als je deelopdracht "lichter" blijkt dan die van andere teamleden, maar dat je proactief bespreekt met het team of de begeleiders wat je nog meer kan doen.
 - Dat je je bijdrage regelmatig commit op de team-repository. Niet enkel tijdens de contactmomenten, maar **telkens je aan het project werkt**. Als je bijvoorbeeld niet aanwezig kan zijn op een contactmoment, kunnen je teamleden toch gebruik maken van jouw werk.
 - Open communicatie: bijvoorbeeld, als je afwezig bent op een contactmoment, dan laat je dit weten aan je teamleden zodat zij dit kunnen opvangen. Of als je de afgelopen week weinig of geen resultaten behaald hebt, dan kom je daarvoor uit en vraag je zo nodig hulp.
 
@@ -167,7 +167,7 @@ Enkele richtlijnen:
 - Als je mondeling afspraken maakt met teamleden of begeleiders, maak dan onmiddellijk een verslag dat gepubliceerd wordt voor heel het team. In het bijzonder: van de wekelijkse intervisiegesprekken wordt er telkens een verslag gemaakt door één van de teamleden en zo snel mogelijk gepubliceerd op de team-repo.
 - Gebruik zoveel mogelijk elektronische vormen van communicatie, zodat teamleden op een andere locatie de kans hebben om dit mee te volgen, of op zijn minst toegang hebben tot de neerslag ervan.
 
-Onder "bedrijfscultuur" verstaan we de manier waarop mensen binnen een organisatie (werknemers, leidinggevenden, klanten, ...) met elkaar omgaan. Dit is bepalend voor de sfeer en het welbevinden van alle teamleden. Wij willen ernaar streven om voor een aangename werksfeer te zorgen waarin we elkaar motiveren om te excelleren.
+Onder "bedrijfscultuur" verstaan we de manier waarop mensen binnen een organisatie (werknemers, leidinggevenden, klanten, ...) met elkaar omgaan. Dit is bepalend voor de sfeer en het welbevinden van alle teamleden. Wij willen ernaar streven naar een aangename werksfeer waarin we elkaar motiveren om te excelleren.
 
 - We behandelen elkaar met respect, ook al zijn we het niet met elkaar eens.
 - Personen worden niet met de vinger gewezen als er iets fout gaat. Fouten of problemen zien we als een opportuniteit om ervaring op te doen en van elkaar te leren. We steken geen energie in het afschuiven van schuld of verantwoordelijkheid, maar zoeken naar manieren om dit in de toekomst te vermijden.
@@ -269,7 +269,7 @@ Met de tool BuddyCheck beoordeel je de bijdrage van jezelf en je teamleden aan h
 
 De resultaten van de peer-evaluaties zijn elementen die meegenomen worden in de eindbeoordeling.
 
-:exclamation: Het is belangrijk om de peer-evaluatie eerlijk en constructief in te vullen. Als je vindt dat een teamlid bijvoorbeeld onvoldoende bijdraagt, of ook omgekeerd zich te dominant opstelt, dan is het belangrijk om dit ook tijdig aan te kaarten. Je hebt misschien de nijging om elkaar in eerste instantie krediet te geven om de sfeer niet te verzieken, maar het is beter om een moeilijke conversatie vroeg genoeg te voeren dan te wachten tot het te laat is! De betrokken student krijgt op deze manier ook ruim de kans om zijn of haar gedrag bij te sturen.
+:exclamation: Het is belangrijk om de peer-evaluatie eerlijk en constructief in te vullen. Als je vindt dat een teamlid bijvoorbeeld onvoldoende bijdraagt, of ook omgekeerd zich te dominant opstelt, dan is het belangrijk om dit ook tijdig aan te kaarten. Je hebt misschien de neiging om elkaar in eerste instantie krediet te geven om de sfeer niet te verzieken, maar het is beter om een moeilijke conversatie vroeg genoeg te voeren dan te wachten tot het te laat is! De betrokken student krijgt op deze manier ook ruim de kans om zijn of haar gedrag bij te sturen.
 
 ### Week 6: Trial run basisopstelling
 
@@ -337,7 +337,7 @@ Indien de student afwezig is op het functioneringsgesprek, of als na het gesprek
 
 ### Tweede examenkans
 
-Wie niet slaagt in de eerste examenkans, krijgt voor de tweede examenkans een persoonlijke opdracht. De opgave wordt via Chamilo gepubliceerd na de bekendmaking van de punten. Wie wil vragen stellen over deze opgave kan dit enkel tijdens de feedback doen. Er geen verdere begeleiding voorzien.
+Wie niet slaagt in de eerste examenkans, krijgt voor de tweede examenkans een persoonlijke opdracht. De opgave wordt via Chamilo gepubliceerd na de bekendmaking van de punten. Wie wil vragen stellen over deze opgave kan dit enkel tijdens de feedback doen. Er is geen verdere begeleiding voorzien.
 
 Het examencijfer is ook in de tweede zittijd opgebouwd uit:
 
