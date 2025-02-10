@@ -93,3 +93,14 @@ bepaalde bronnen. Toon aan dat er ook bronnen zijn waar deze gebruikers geen toe
   - een device in overleg met de lectoren
 - Het IoT device kan je installeren met een default install procedure naar keuze
 - Jouw configuratie-script logt in met ssh op dit toestel, en voert (automatisch) alle verdere configuraties uit (net zoals je zou doen met een VM).
+
+## Database High Availability
+
+Zet een database op met high availability als belangrijke requirement. Dat betekent concreet:
+
+- De database is opgezet als een **cluster** met meerdere nodes (bv. Galera Cluster voor MariaDB of MySQL)
+- Een **load balancer** verdeelt queries over de verschillende nodes van de cluster
+- **Failover**: wanneer een van de nodes uitvalt, wordt het werk overgenomen door de andere node(s)
+- Voeg voldoende schijven toe aan de nodes zodat je een **RAID-5** partitie kan opzetten voor de data-directory (bv. `/var/lib/mysql`).
+
+Zie [practice: raid](https://hogenttin.github.io/linux-training-hogent/opslinux/storage_raid/#practice-raid) in de OpsLinux Syllabus en [deze labo-opstelling](https://github.com/HoGentTIN/linux-training-labs/tree/main/raid) voor een voorbeeld.
