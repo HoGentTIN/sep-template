@@ -11,7 +11,7 @@ Voor de basisomgeving gebruik je een domeinnaam met volgende structuur:
 :exclamation: **Let op**: Als voorbeeld wordt er in dit document telkens gebruikt gemaakt van `l01-thematrix.internal` (de `l` van "lectoren"). Vervang dit steeds door jullie eigen domeinnaam (bv. `g03-syndus.internal` voor groep 3 uit Gent of `a02-aralis.internal` voor groep 2 uit Aalst).
 
 - Leg eerst en vooral een IP-adrestabel vast voor alle componenten in het netwerk die dit nodig hebben. De specificaties voor de adressen vind je hieronder.
-- De serverinfrastructuur bestaat uit virtuele machines (VMs) gebaseerd op een evenredige mengeling van Windows Server en de laatste versie van AlmaLinux. Servers bestaan enkel uit CLI gebaseerde VMs, een GUI is hier immers overbodig.
+- De serverinfrastructuur bestaat uit virtuele machines (VMs) gebaseerd op een evenredige mengeling van Windows Server en de laatste versie van AlmaLinux. **Servers bestaan enkel uit CLI gebaseerde VMs**, een GUI is hier immers overbodig.
 - Installatie en configuratie van de Windows systemen gebeurt deels in de GUI en deels aan de hand van PowerShell scripts. Op de Linux-systemen gebeurt dit **volledig** met Vagrant en bash-scripting. Wil je dit anders aanpakken, dan moet je dit eerst overleggen met de technische coaches.
 - Containertechnieken zoals docker, docker compose, podman, LXC, ... zijn niet toegelaten. Tools zoals Puppet, Ansible, ... zijn ook niet toegelaten. Het doel is dat je zelf de scripts uitwerkt.
 - Zorg ervoor dat alle scripts herbruikbaar zijn. Hiermee bedoelen we dat je "hard-coded" waarden vermijdt, maar in plaats daarvan overal variabelen gebruikt. De systeembeheerder kan de gewenste waarden invullen in een configuratiebestand dat ingelezen wordt door je scripts, of (in het geval van een PowerShell-script) via een dialoogvenster bij de uitvoering van het script.
@@ -20,7 +20,7 @@ Voor de basisomgeving gebruik je een domeinnaam met volgende structuur:
 
 ## Netwerk
 
-Het netwerk en alle servers worden uitgewerkt met IPv4; IPv6 is een challenge. Plan vooraf de nodige subnetten en verspil geen IP-adressen. Alle subnetten kies je binnen de vastgelegde range 192.168.20**X**.0/24, waarbij 10**X** staat voor jullie groepsnummer vermeerderd met 200. De default gateway die de ISP (zie onder) bij iteratie 1 zal gebruiken is 192.168.20**X**.1/30, en komt dus uit jouw eigen range van adressen! Jouw uplink interface gebruikt 192.168.20**X**.2/30.
+Het netwerk en alle servers worden uitgewerkt met IPv4. IPv6 is een challenge. Plan vooraf de nodige subnetten en verspil geen IP-adressen. Alle subnetten kies je binnen de vastgelegde range 192.168.20**X**.0/24, waarbij 20**X** staat voor jullie groepsnummer vermeerderd met 200. De default gateway die de ISP (zie onder) bij iteratie 1 zal gebruiken is 192.168.20**X**.1/30, en komt dus uit jouw eigen range van adressen! Jouw uplink interface gebruikt 192.168.20**X**.2/30.
 
 ### Basisnetwerk - iteratie 1
 
@@ -71,11 +71,11 @@ Windows Servers bestaan enkel uit **CLI** gebaseerde VMs, een GUI is hier immers
 - Zorg ervoor dat de PC's en servers geen lokale gebruikers hebben, maar dat de authenticatie gebeurt via de DC. Verdeel de gebruikers in groepen met verschillende rechten. Denk hier zorgvuldig over na en zorg ervoor dat je bij minstens één gebruikersgroep afdwingt dat ze op bepaalde toestellen niet kunnen inloggen. Doe dit aan de hand van een Group Policy.
 - Voorzie voor elke gebruiker een shared folder op deze DC.
 - De Domain Controller is ook de DNS-server van het domain. Zorg ervoor dat deze alle DNS-queries binnen het domain kan beantwoorden. Voorzie dus de nodige A-records, PTR-records en CNAME-records voor de verschillende servers en clients. Queries voor andere domainen moet de DC doorsturen naar een forwarder naar keuze.
-- Automatiseer dit alles zoveel mogelijk. Gebruik hiervoor scripts met VboxManage om de VM's aan te maken in Virtualbox, en PowerShell-commando's om de VM's nadien te configureren.
+- Automatiseer dit alles zoveel mogelijk. Gebruik hiervoor scripts met VboxManage om de VM's aan te maken in Virtualbox, en PowerShell scripts om de VM's nadien te configureren.
 
 ### Linux servers
 
-- Gebruik voor alle Linux VM's de laatste versie van AlmaLinux op dit moment. Installeer geen GUI. Alle servers mogen **enkel over een CLI** beschikken.
+- Gebruik voor alle Linux VM's de laatste versie van AlmaLinux. Installeer geen GUI. Alle servers mogen **enkel over een CLI** beschikken.
 - Schakel SELinux niet uit.
 - Linux VMs zijn benaderbaar via SSH. Zorg ervoor dat je **nooit** met het root account kan inloggen en dat je **enkel** door middel van SSH keys kan inloggen (dus niet door een gebruikersnaam en wachtwoord in te geven).
 
