@@ -100,7 +100,7 @@ Tenslotte gebruiken we zoveel mogelijk de features van JIRA om te communiceren o
 - Het lastenboek vormt de voorbereiding om in **JIRA tickets** aan te maken
 
     - Wijs tickets toe aan teamleden. Bij het verplaatsen van een ticket naar de testfase, kan je dan de tester aanduiden.
-    - De tester kan nieuw tickets aanmaken voor de bugs die hij/zij vindt en toekennen aan de verantwoordelijke voor de implementatie.
+    - De tester kan nieuwe tickets aanmaken voor de bugs die hij/zij vindt en toekennen aan de verantwoordelijke voor de implementatie.
     - Verwijs in de tickets naar relevante informatie, bv. link naar broncode en documentatie in de GitHub repo.
 
 - **Tijdregistratie** gebeurt eveneens in JIRA
