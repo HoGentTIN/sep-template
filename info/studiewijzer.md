@@ -247,6 +247,9 @@ Gezamenlijke kick-off voor studenten van campus Aalst en Gent.
   - Maak afspraken over het gebruik van de "project management tools": Microsoft Teams, GitHub issues, kanban bord, Git (branches?, PRs?, trunk based?).
 - Technische documentatie opstarten: overzicht netwerk, IP-adrestabel, afbeelding netwerkstructuur, algemene structuur, ...
 
+### Week 3
+- Roadmap (visueel overzicht van de 12 weken planning van het project) is opgesteld.
+
 ### Week 3 t/m 12: tussentijdse sprints
 
 Tussen contactmomenten door:
