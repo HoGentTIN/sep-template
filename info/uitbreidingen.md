@@ -4,7 +4,7 @@ In deze paragraaf worden uitbreidingen voor de basisomgeving omschreven. Hier ka
 
 ## NAT port forwarding
 
-- Breid de NAT-configuratie (zie [basisopdracht](./basis.md)) met port forwarding: externe vragen op poort 80 worden afgeleverd aan de reverse proxy in DMZ. 
+- Breid de NAT-configuratie (zie [basisopdracht](./basis.md)) uit met port forwarding: externe vragen op poort 80 worden afgeleverd aan de reverse proxy in DMZ. 
   Als extern IP-adres werk je niet met DHCP, maar met een statisch IP 172.22.200.**X**/16, waarbij **X** staat voor jullie groepsnummer (zie iteratie 2).
 - Dit IP-adres resolved naar sepgroup**0X**.hogent.be (zonder leading zero als je groepsnummer groter is dan 9). Test door te surfen vanuit het klasnetwerk: is je website bereikbaar op https://sepgroup0X.hogent.be?
 
@@ -45,16 +45,16 @@ In deze paragraaf worden uitbreidingen voor de basisomgeving omschreven. Hier ka
 
 - Maak een extra Domein Controller aan binnen een ander Active Directory-domein.
 - Zorg ervoor dat een gebruiker uit het ene domein kan inloggen op een toestel in het andere domein en daar toegang heeft tot 
-bepaalde bronnen. 
+bepaalde bronnen. Toon aan dat er ook bronnen zijn waar deze gebruikers geen toegang tot hebben
 
 ## Uitgebreide GPO's
 
 - Maak een extra groep aan waarbij volgende beperkingen worden opgelegd aan de gebruikers die hiervan deel uitmaken:
-  * Geen toegang tot externe opslag.
+  * Geen toegang tot externe opslag (USB, externe harde schijven).
   * De achtergrond van het bureaublad is bij deze gebruikers egaal van kleur en onaanpasbaar.
   * Wijzigingen aan de taakbalk zijn niet toegestaan.
   * Bestanden mogen enkel op de persoonlijke netwerkshare van de gebruiker opgeslaan worden of in de 'Downloads'-folder.
-  * De folder 'Downloads' wordt automatisch gellegd bij uitloggen.
+  * De folder 'Downloads' wordt automatisch gewist bij uitloggen.
   * Toegang tot Command Prompt, Powershell, en de Windows Register-editor is geblokkeerd.
 
 ## Matrix.org linux server
@@ -68,7 +68,7 @@ bepaalde bronnen.
 ## Nextcloud linux server
 
 - Installeer [Nextcloud](https://nextcloud.com/). Dit is een self hosted Google Suite / OneDrive kloon. Het biedt een platform aan om bestanden te delen of te synchroniseren (= Google Drive), kalenders aan te maken en te delen (= Google Calendar), contacten bij te houden en te beheren (Google Contacts) en nog veel meer. Dankzij Nextcloud heb je de functionaliteit gelijkaardig aan Google Suite of OneDrive, maar blijf je baas over je eigen data.
-- Maak naast een admin account ook minstens 1 user account aan. Zorg ervoor dat een Windows 10 client (of Linux client) de Nextcloud server kan bereiken via https://nextcloud.l01-thematrix.internal dankzij de reverse proxy.
+- Maak naast een admin account ook minstens 1 user account aan. Zorg ervoor dat een Windows 10/11 client (of Linux client) de Nextcloud server kan bereiken via https://nextcloud.l01-thematrix.internal dankzij de reverse proxy.
 - Installeer op de client de Nextcloud software voor clients en zorg ervoor dat je bestanden kan synchroniseren met de server en/of andere clients.
 - Maak een kalender aan en zorg ervoor dat je deze kan importeren/synchroniseren met Thunderbird op een client.
 - Installeer een plugin om forms te maken en deel een link naar form met iemand anders zodat die de form kan invullen.
