@@ -92,4 +92,4 @@ bepaalde bronnen. Toon aan dat er ook bronnen zijn waar deze gebruikers geen toe
   - een PcEngines ALIX (legacy)
   - een device in overleg met de lectoren
 - Het IoT device kan je installeren met een default install procedure naar keuze
-- Jouw configuratie-script logt in met ssh op dit toestel, en voert (automatisch) alle verder configuraties uit (net zoals je zou doen met een VM).
+- Jouw configuratie-script logt in met ssh op dit toestel, en voert (automatisch) alle verdere configuraties uit (net zoals je zou doen met een VM).
