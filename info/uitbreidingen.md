@@ -73,6 +73,28 @@ bepaalde bronnen. Toon aan dat er ook bronnen zijn waar deze gebruikers geen toe
 - Maak een kalender aan en zorg ervoor dat je deze kan importeren/synchroniseren met Thunderbird op een client.
 - Installeer een plugin om forms te maken en deel een link naar form met iemand anders zodat die de form kan invullen.
 
+## JellyFin linux server
+
+- Installeer [JellyFin](https://jellyfin.org/). Dit is een tool die je kan gebruiken om eigen media te beheren en raadplegen. In een bedrijfscontext kunnen we JellyFin gebruiken om enerzijds branding-gerelateerd bedrijfsmedia te gaan bijhouden (~ promo-filmpjes, interne trainingsvideo's, opnames van workshops of info-sessies, ...), maar ook om foto's en video's in verband met bedrijfsuitstappen of evenementen te gaan opslaan.
+- Voorzie een logische en overzichtelijke mappenstructuur voor de hierboven vermeldde doeleinden.
+- Voorzie een admin account dat kan gebruikt worden om in te loggen. Zorg ervoor dat een Windows 10/11 client (of Linux client) de JellyFin server kan bereiken via https://jellyfin.l01-thematrix.internal dankzij de reverse proxy.
+- Zorg ervoor dat énkel deze eindgebruikers binnen de employees-VLAN toegang hebben tot de webinterface!
+- Zorg ervoor dat er enkele foto's en video's automatisch worden geprovisioned bij het opzetten van het netwerk.
+- Hou het professioneel - voorzie relevante en/of informatieve bestanden.
+
+## NetBox linux server
+
+- Installeer [NetBox](https://netboxlabs.com/oss/netbox/). Dit is een tool die je kan gebruiken voor netwerkdocumentatie, en bevat onder andere mogelijkheden tot het documenteren van IP-adressen (IPAM), (sub)netwerken en meer. 
+- NetBox maakt gebruik van een PostgreSQL databank. Integreer dit in jouw bestaande databank indien je gebruik maakt van PostgreSQL binnen jouw opstelling, of zet op deze server een lokale PostgreSQL-databank op.
+- Maak binnen NetBox een overzicht van het netwerk dat je hebt opgesteld voor dit projectwerk. Zorg ervoor dat de volgende componenten van het netwerk gedocumenteerd en zichtbaar zijn:
+  - Overzicht van verschillende devices (~ VM's) binnen het netwerk
+  - Overzicht van de gebruikte IP-adressen, de verschillende IP-ranges alsook de VLAN's
+  - Voorzie elk device met een gepaste naam en rol, en label deze bovendien ook met het correcte besturingsysteem en bijhorende versie
+  - Optioneel: maak gebruik van server racks om de VM's fysiek te emuleren en verbinden met elkaar
+- Zorg ervoor dat deze documentatie automatisch geprovisioned wordt bij het opzetten van jouw netwerk. 
+- Zorg ervoor dat een Windows 10/11 client (of Linux client) de NetBox server kan bereiken via https://netbox.l01-thematrix.internal dankzij de reverse proxy.
+- Voorzie een admin account dat kan gebruikt worden om in te loggen en de netwerkdocumentatie te raadplegen. Zorg ervoor dat er na inloggen een overzichtelijk dashboard wordt aangeboden - met behulp van dit dashboard kan de gebruiker eenvoudig navigeren naar de bovenstaande componenten.
+
 ## Extra website
 
 - Implementeer een tweede website naar keuze op de webserver. Zorg ervoor dat je naar deze website kan surfen via https://zelfgekozennaam.l01-thematrix.internal dankzij de reverse proxy. Werk je DNS-server bij zodat ook deze nieuwe URL gekend is.
