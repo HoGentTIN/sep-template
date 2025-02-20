@@ -20,7 +20,7 @@ Voor de basisomgeving gebruik je een domeinnaam met volgende structuur:
 
 ## Netwerk
 
-Het netwerk en alle servers worden uitgewerkt met IPv4. IPv6 is een challenge. Plan vooraf de nodige subnetten en verspil geen IP-adressen. Alle subnetten kies je binnen de vastgelegde range 192.168.20**X**.0/24, waarbij 20**X** staat voor jullie groepsnummer vermeerderd met 200. De default gateway die de ISP (zie onder) bij iteratie 1 zal gebruiken is 192.168.20**X**.1/30, en komt dus uit jouw eigen range van adressen! Jouw uplink interface gebruikt 192.168.20**X**.2/30.
+Het netwerk en alle servers worden uitgewerkt met IPv4. IPv6 is een challenge. Plan vooraf de nodige subnetten en verspil geen IP-adressen. Alle subnetten kies je binnen de vastgelegde range 192.168.20**X**.0/24, waarbij 20**X** staat voor jullie groepsnummer vermeerderd met 200. Groepen uit campus Aalst vermeerderen met 220, dus e.g. groep a02 gebruikt netwerk 192.168.**222**.0/24. De default gateway die de ISP (zie onder) bij iteratie 1 zal gebruiken is 192.168.20**X**.1/30, en komt dus uit jouw eigen range van adressen! Jouw uplink interface gebruikt 192.168.20**X**.2/30.
 
 ### Basisnetwerk - iteratie 1
 
