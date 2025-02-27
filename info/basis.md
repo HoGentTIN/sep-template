@@ -53,7 +53,7 @@ Alle servers die je opzet maken gebruik van dit netwerk. Je simuleert dit netwer
 
 In een tweede iteratie baseer je jou op de kennis verworven in 'Computer Networks 3'. Deze zaken zal je pas kunnen implementeren nadat in dit vak de relevante lessen gegeven zijn.
 
-- Configureer zelf NAT op je uplink router, die als publiek adres een IP-adres uit de netwerk-range van het leslokaal gebruikt (automatisch ingesteld via DHCP, de router wordt hier client!). Het subnetwerk (.252/30) naar de ISP-router uit iteratie 1 verdwijnt dan uit de set-up.
+- Configureer zelf NAT op je uplink router, die als publiek adres een IP-adres uit de netwerk-range van het leslokaal gebruikt (automatisch ingesteld via DHCP, de router wordt hier client!). Het subnetwerk (.0/30) naar de ISP-router uit iteratie 1 verdwijnt dan uit de set-up.
   Alternatief gebruik je een statisch IP 172.22.200.X/16, waarbij X staat voor jullie groepsnummer. Default gateway in het klasnetwerk is 172.22.255.254; de DNS server is 172.22.128.1.
 - (\*1) Werk de Cisco router bij met de nodige Access Control Lists (ACLs) om het netwerk te beperken. Bouw deze firewall regels op vanuit het 'principle of least privilege': enkel de gekende communicatie tussen de drie netwerken wordt toegelaten; andere subnets en poorten worden by default geweigerd.
 - Blijf (vanzelfsprekend) werken met configuraties die, na het booten van de netwerktoestellen, opgeladen worden vanaf de TFTP-server - je kan jezelf vermeien met deze semi-geautomatiseerde manier van werken!
